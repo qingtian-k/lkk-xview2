@@ -1,0 +1,7 @@
+#! /bin/bash
+PROJECT_NAME=lkk-xview2
+WORKDIR=${PWD##*/}
+BUCKET=gs://lkk-$WORKDIR
+GIT_USER=lucaskawazoi
+GIT_CLONE=git@github.com:$GIT_USER/$PROJECT_NAME.git
+GCP_LOGIN_NAME=lucas.key.kawazoi@gmail.com
