@@ -16,8 +16,7 @@ from tensorflow.keras.layers import Input, Reshape, Conv2D, MaxPooling2D, BatchN
 
 print('Tensorflow version:', tf.__version__)
 
-#%%
-# Set variables
+#%% Set variables
 # -------------------------------
 PATH = Path() / 'data/xBD/spacenet_gt'
 DATA_PATH = PATH / 'dataSet'
