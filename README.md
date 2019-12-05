@@ -12,9 +12,16 @@ I will share my analysis, models and evolution step-by-step.
 
 
 ---------------------------------------------------------
-## BASICS
+## STEP 1. REPLICATE BASELINE
 ---------------------------------------------------------
-### [Create project, set configs and create virtual environment](https://cloud.google.com/solutions/running-distributed-tensorflow-on-compute-engine)
+### [Using VSCode with Jupyter notebook](https://code.visualstudio.com/docs/python/jupyter-support)
+
+### [Remote SSH to VM using VSCode](https://code.visualstudio.com/docs/remote/ssh)
+
+### Create project, set configs and create virtual environment
+
+Obs.: Used anaconda and python 3.6 to replicate xview2-baseline
+
 
 ### Download the data and upload to Google Cloude Storage
 
@@ -27,10 +34,25 @@ To download the data (28GB) directly to my virtual machine, I needed to access t
 - Open the firewall
 - Connect to the VNC server
 
-### [Explore the data and create an TFRecord files]
+---------------------------------------------------------
+## STEP 2. TRAIN THE BASELINE MODEL USING TPUs
+---------------------------------------------------------
+
+### Localization
 
 
-### Create template for distributed training
+
+---------------------------------------------------------
+## STEP 3. OPTIMIZE PIPELINE WITH TFRecords AND DISTRIBUTED TRAINING
+---------------------------------------------------------
+
+
+
+---------------------------------------------------------
+## STEP 4. WHAT NEXT?
+---------------------------------------------------------
+
+
 
 ---------------------------------------------------------
 ## SOME PROBLEMS THAT I ENCOUNTERED DURING THIS EXPERIMENT:

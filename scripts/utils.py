@@ -155,3 +155,7 @@ def sync_data_to_bucket(bucket):
     p2 = 'gsutil -m rsync -r data {}/data'.format(bucket)
     subprocess.run(p1.split(' '))
     subprocess.run(p2.split(' '))
+
+def load_data(bucket):
+    print('ok')
+    return True
