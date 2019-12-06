@@ -35,7 +35,12 @@ To download the data (28GB) directly to my virtual machine, I needed to access t
 - Connect to the VNC server
 
 ---------------------------------------------------------
-## STEP 2. TRAIN THE BASELINE MODEL USING TPUs
+## STEP 2. Create TFRecods
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+## STEP 2. Create TFRecods
 ---------------------------------------------------------
 
 ### Localization
